@@ -147,7 +147,7 @@ display: inline;
 text-align: center;
 }
 
-a:active {
+a:active{
 text-decoration: none;
 color: #f44336;
 display: inline;
