@@ -33,7 +33,7 @@ margin-left: 5%;
 margin-bottom: 0.5em;
 padding-top: .5%;
 padding-bottom: 1%;
-border-top: 5px solid red;
+border-top: 5px solid #f44336;
 }
 
 .column4 {
@@ -43,14 +43,14 @@ margin-left: 5%;
 margin-bottom: 0.5em;
 padding-top: .5%;
 padding-bottom: 1%;
-border-top: 5px solid red;
+border-top: 5px solid #f44336;
 }
 
 .column5 {
 width: 50%;	
 float: left;
 padding-top: .5%;
-border-top: 5px solid red;
+border-top: 5px solid #f44336;
 }
 
 .column6 {
@@ -61,7 +61,7 @@ border-top: 5px solid red;
 	margin-top: 1.5em;
 	padding-top: .5%;
 	padding-bottom: 1%;
-	border-top: 5px solid red;
+	border-top: 5px solid #f44336;
 }
 .column7 {
 	width: 30%;	
@@ -71,7 +71,7 @@ border-top: 5px solid red;
 	margin-top: 1.5em;
 	padding-top: .5%;
 	padding-bottom: 1%;
-	border-top: 5px solid red;
+	border-top: 5px solid #f44336;
 }
 .column8 {
 	width: 30%;	
@@ -80,7 +80,7 @@ border-top: 5px solid red;
 	margin-top: 1.5em;
 	padding-top: .5%;
 	padding-bottom: 1%;
-	border-top: 5px solid red;
+	border-top: 5px solid #f44336;
 }
 
 .column9 {
@@ -149,14 +149,14 @@ text-align: center;
 
 a:active {
 text-decoration: none;
-color: red;
+color: #f44336;
 display: inline;
 text-align: center;
 }
 
 a:hover {
 text-decoration: none;
-color: red;
+color: #f44336;
 opacity: .9;
 display: inline;
 text-align: center;
@@ -172,7 +172,6 @@ h1 {font-size: 11px;
 	max-width: 800px;
 	text-align: center;
 	margin:0 auto;
-	margin-bottom: 1.5em;
 	line-height: 1.4em;
 }
 
@@ -241,10 +240,10 @@ h2 {font-size: 22px;
 
 h3
  {font-size: 14px;
-	font-weight: 200; 
+	font-weight: 400; 
     margin:0;
     padding:0;
-	color: #FF2727;
+	color: #f44336;
 	letter-spacing: 0.1em;
 }
 
@@ -319,7 +318,7 @@ padding-bottom: 1em;
 }
 
 footer {
-background-color: #FF2727;
+background-color: #f44336;
 }
 
 .clear {
@@ -351,41 +350,11 @@ border: none;
 }
 
 
-#container left {
-    width: 100%;
-    background-color: pink;
-    position: relative;
-}
-
-#left {
-    width: 70%;
-	height: 300px;
-    background-color: blue;
-    position: absolute;
-    left: 30px;
-    top: 30px;
-    z-index: 1;
-	background-image: url("myimage.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-
-#right {
-    width: 50%;
-	height: 500px;
-    background-color: green;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 2;
-	opacity: 50%;
-}
-
 @media only screen and (max-width: 600px) {	
 	.column9 {
 		width: 100%;	
 		float: left;
-		border-top: 5px solid red;
+		border-top: 5px solid #f44336;
 		padding-top: .5em;
 	}
 	.column10 {
@@ -401,7 +370,7 @@ border: none;
 		float: left;
 		margin-top: 0;
 		padding-top: 1.5em;
-		border-top: 5px solid red;
+		border-top: 5px solid #f44336;
 	}
 	.column12 {
 		width: 100%;	
@@ -413,7 +382,7 @@ border: none;
 		width: 100%;	
 		float: left;
 		margin-top: 1.5em;
-		border-top: 5px solid red;
+		border-top: 5px solid #f44336;
 		padding-top: .5em;
 	}
 
