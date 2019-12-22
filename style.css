@@ -172,7 +172,15 @@ h1 {font-size: 11px;
 	max-width: 800px;
 	text-align: center;
 	margin:0 auto;
+	margin-bottom: 1.5em;
 	line-height: 1.4em;
+}
+
+.services {font-size: 17px;
+	font-weight: 200;
+	max-width: 800px;
+	text-align: center;
+	margin:0 auto;
 }
 
 .blog {
@@ -294,13 +302,7 @@ p {font-size: 14px;
 	margin:0 auto;
 }
 
-.services {font-size: 17px;
-	font-weight: 200;
-	text-align: center;
-	max-width: 800px;
-	margin-bottom: 1em;
-	text-align: center;
-}
+
 
 .article2 {
 background-color: #eee;	
@@ -320,7 +322,7 @@ footer {
 background-color: #FF2727;
 }
 
-#clear {
+.clear {
 display: inline-block;
 width: 200px;
 padding:0.5em;
